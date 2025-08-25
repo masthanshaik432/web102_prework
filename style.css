@@ -20,7 +20,11 @@ body {
 }
 
 .stats-container {
-    display: flex;
+    display: flex; /* Ensures flexbox behavior */
+    background-color: orange;
+    align-items: center; /* Vertically centers the items */
+    justify-content: space-around; /* Space out items evenly (optional, depending on layout needs) */
+    padding: 10px; /* Optional: Add padding if you want spacing inside the container */
 }
 
 .stats-card {
